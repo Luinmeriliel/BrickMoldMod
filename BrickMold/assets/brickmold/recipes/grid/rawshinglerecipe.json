@@ -1,0 +1,35 @@
+{
+  "ingredientPattern": "DDD,DDD,_T_",
+  "ingredients": {
+    "D": {
+      "type": "item",
+      "code": "game:clay-*",
+      "name": "type",
+      "allowedVariants": [
+        "black",
+        "blurple",
+        "blue",
+        "brown",
+        "darkgrey",
+        "fire",
+        "gold",
+        "green",
+        "greenblue",
+        "lapislazuli",
+        "light",
+        "malachite",
+        "orange",
+        "pink",
+        "purple",
+        "red",
+        "redbrown",
+        "yellow"
+      ],
+      "quantity": 1
+    },
+    "T": { "type": "block", "code": "brickmold:shingleform", "isTool": true }
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "item", "code": "game:shingle-raw-{type}", "quantity": 6 }
+}

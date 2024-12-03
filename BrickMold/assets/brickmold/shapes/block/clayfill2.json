@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"collapsedPaths": "",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"birch2": [16,16],
+		"birch": [16,16]
+	},
+	"textures": {
+		"contents": "game:block/clay/blueclay"
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "Filling1",
+					"from": [ -3.5, 0.0, -2.0 ],
+					"to": [ 3.5, 2.4, 2.0 ],
+					"rotationOrigin": [ -3.5, 0.0, -2.0 ],
+					"faces": {
+						"up": { "texture": "#contents", "uv": [ 0.0, 0.0, 8.0, 5.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#contents", "uv": [ 0.0, 0.0, 8.0, 5.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+					}
+				}
+			]
+		}
+	]}

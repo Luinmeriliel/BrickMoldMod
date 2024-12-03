@@ -1,0 +1,10 @@
+{
+	"ingredientPattern": "SSS,LLL",
+	"width": 3,
+	"height": 2,
+	"ingredients": {
+		"S": { "type": "item", "code": "game:plank-*", "quantity": 2 },
+		"L": { "type": "block", "code": "game:plankslab-*" }
+	},
+	"output": { "type": "block", "code": "brickmold:shingleform"  }
+}

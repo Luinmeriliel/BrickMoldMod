@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "file": "game:recipes/grid/rawbrick.json",
+    "side": "server"
+  }
+]

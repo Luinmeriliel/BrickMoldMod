@@ -1,0 +1,86 @@
+{
+  "code": "refractoryclay",
+  "attributes": {
+    "displaycaseable": true,
+    "shelvable": true,
+    "onDisplayTransform": {
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 0.55
+    }
+  },
+  "maxstacksize": 64,
+  "variantgroups": [
+    {
+      "code": "tier",
+      "states": [ "tier1", "tier2", "tier3" ]
+    }
+  ],
+  "shape": { "base": "game:item/resource/fireclay" },
+  "textures": {
+    "fireclay": { "base": "game:block/clay/refractory/{tier}/top" }
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ]
+  },
+  "guiTransform": {
+    "rotation": {
+      "x": 142,
+      "y": -35,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.48,
+      "y": 0.09,
+      "z": 0.5
+    },
+    "scale": 2.2
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": 0.0468,
+      "y": -0.1,
+      "z": 0
+    },
+    "rotation": {
+      "x": 6,
+      "y": 49,
+      "z": 20
+    }
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -2.08,
+      "y": -1.24,
+      "z": -1.22
+    },
+    "rotation": {
+      "x": -31,
+      "y": 11,
+      "z": -98
+    },
+    "scale": 0.38
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0.17,
+      "z": 0
+    },
+    "rotation": {
+      "x": -1,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.17,
+      "z": 0.5
+    },
+    "scale": 5
+  }
+}

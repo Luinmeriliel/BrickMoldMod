@@ -1,0 +1,299 @@
+{
+  "code": "brickmold",
+  "class": "brickmold.brickmold",
+  "behaviors": [
+    { "name": "NWOrientable" },
+    { "name": "UnstableFalling" },
+    { "name": "RightClickPickup" }
+  ],
+  "entityClass": "brickmold.BlockEntityBrickMold",
+  "attributes": {
+    "contentConfig": [
+      {
+        "code": "tier1",
+        "content": {
+          "type": "item",
+          "code": "brickmold:refractoryclay-tier1"
+        },
+        "quantityPerFillLevel": 1,
+        "maxFillLevels": 3,
+        "shapesPerFillLevel": [ "block/clayfill1", "block/clayfill2", "block/clayfill3" ],
+        "textureCode": "contents-tier1"
+      },
+      {
+        "code": "tier2",
+        "content": {
+          "type": "item",
+          "code": "brickmold:refractoryclay-tier2"
+        },
+        "quantityPerFillLevel": 1,
+        "maxFillLevels": 3,
+        "shapesPerFillLevel": [ "block/clayfill1", "block/clayfill2", "block/clayfill3" ],
+        "textureCode": "contents-tier2"
+      },
+      {
+        "code": "tier3",
+        "content": {
+          "type": "item",
+          "code": "brickmold:refractoryclay-tier3"
+        },
+        "quantityPerFillLevel": 1,
+        "maxFillLevels": 3,
+        "shapesPerFillLevel": [ "block/clayfill1", "block/clayfill2", "block/clayfill3" ],
+        "textureCode": "contents-tier3"
+      },
+      {
+        "code": "blue",
+        "content": {
+          "type": "item",
+          "code": "clay-blue"
+        },
+        "quantityPerFillLevel": 1,
+        "maxFillLevels": 3,
+        "shapesPerFillLevel": [ "block/clayfill1", "block/clayfill2", "block/clayfill3" ],
+        "textureCode": "contents-blue"
+      },
+      {
+        "code": "fire",
+        "content": {
+          "type": "item",
+          "code": "clay-fire"
+        },
+        "quantityPerFillLevel": 1,
+        "maxFillLevels": 3,
+        "shapesPerFillLevel": [ "block/clayfill1", "block/clayfill2", "block/clayfill3" ],
+        "textureCode": "contents-fire"
+      },
+      {
+        "code": "brown",
+        "content": {
+          "type": "item",
+          "code": "clay-brown"
+        },
+        "quantityPerFillLevel": 1,
+        "maxFillLevels": 3,
+        "shapesPerFillLevel": [ "block/clayfill1", "block/clayfill2", "block/clayfill3" ],
+        "textureCode": "contents-brown"
+      },
+      {
+        "code": "red",
+        "content": {
+          "type": "item",
+          "code": "clay-red"
+        },
+        "quantityPerFillLevel": 1,
+        "maxFillLevels": 3,
+        "shapesPerFillLevel": [ "block/clayfill1", "block/clayfill2", "block/clayfill3" ],
+        "textureCode": "contents-red"
+      },
+      {
+        "code": "bricktier1",
+        "content": {
+          "type": "item",
+          "code": "refractorybrick-raw-tier1"
+        },
+        "quantityPerFillLevel": 1,
+        "maxFillLevels": 1,
+        "shapesPerFillLevel": [ "block/clayfill3" ],
+        "textureCode": "contents-tier1"
+      },
+      {
+        "code": "bricktier2",
+        "content": {
+          "type": "item",
+          "code": "refractorybrick-raw-tier2"
+        },
+        "quantityPerFillLevel": 1,
+        "maxFillLevels": 1,
+        "shapesPerFillLevel": [ "block/clayfill3" ],
+        "textureCode": "contents-tier2"
+      },
+      {
+        "code": "bricktier3",
+        "content": {
+          "type": "item",
+          "code": "refractorybrick-raw-tier3"
+        },
+        "quantityPerFillLevel": 1,
+        "maxFillLevels": 1,
+        "shapesPerFillLevel": [ "block/clayfill3" ],
+        "textureCode": "contents-tier3"
+      },
+      {
+        "code": "brickblue",
+        "content": {
+          "type": "item",
+          "code": "rawbrick-blue"
+        },
+        "quantityPerFillLevel": 1,
+        "maxFillLevels": 1,
+        "shapesPerFillLevel": [ "block/clayfill3" ],
+        "textureCode": "contents-blue"
+      },
+      {
+        "code": "brickfire",
+        "content": {
+          "type": "item",
+          "code": "rawbrick-fire"
+        },
+        "quantityPerFillLevel": 1,
+        "maxFillLevels": 1,
+        "shapesPerFillLevel": [ "block/clayfill3" ],
+        "textureCode": "contents-fire"
+      },
+      {
+        "code": "brickbrown",
+        "content": {
+          "type": "item",
+          "code": "bricklayers:rawclaybrick-brown"
+        },
+        "quantityPerFillLevel": 1,
+        "maxFillLevels": 1,
+        "shapesPerFillLevel": [ "block/clayfill3" ],
+        "textureCode": "contents-brown"
+      },
+      {
+        "code": "brickred",
+        "content": {
+          "type": "item",
+          "code": "bricklayers:rawclaybrick-red"
+        },
+        "quantityPerFillLevel": 1,
+        "maxFillLevels": 1,
+        "shapesPerFillLevel": [ "block/clayfill3" ],
+        "textureCode": "contents-red"
+      }
+    ]
+  },
+  "sidesolid": {
+    "all": false
+  },
+  "sideopaque": {
+    "all": false
+  },
+  "heldTpIdleAnimation": "holdunderarm",
+  "variantgroups": [
+    {
+      "code": "side",
+      "states": [ "ns", "we" ]
+    }
+  ],
+  "creativeinventory": {
+    "general": [ "*-ns" ],
+    "decorative": [ "*-ns" ]
+  },
+
+  "shape": { "base": "brickmold:block/brickmold" },
+  "shapebytype": {
+    "*-ns": {
+      "base": "brickmold:block/brickmold",
+      "rotateY": 0
+    },
+    "*-we": {
+      "base": "brickmold:block/brickmold",
+      "rotateY": 90
+    }
+  },
+  "textures": {
+    "contents-tier1": {
+      "base": "game:block/clay/refractory/tier1/top"
+    },
+    "contents-tier2": {
+      "base": "game:block/clay/refractory/tier2/top"
+    },
+    "contents-tier3": {
+      "base": "game:block/clay/refractory/tier3/top"
+    },
+    "contents-blue": {
+      "base": "game:block/clay/blueclay"
+    },
+    "contents-fire": {
+      "base": "game:block/clay/fireclay"
+    },
+    "contents-brown": {
+      "base": "brickmold:block/clay/brownclay"
+    },
+    "contents-red": {
+      "base": "brickmold:block/clay/redclay"
+    }
+  },
+  "blockmaterial": "Wood",
+  "replaceable": 550,
+  "resistance": 2,
+  "lightAbsorption": 0,
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 40
+  },
+  "guiTransform": {
+    "translation": {
+      "x": -1,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.22,
+      "z": 0.5
+    },
+    "scale": 1.53
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": 0.16,
+      "y": 0.4,
+      "z": 0
+    },
+    "rotation": {
+      "x": 125,
+      "y": 132,
+      "z": -82
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 1.9
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.5,
+      "y": -0.3,
+      "z": -0.01
+    },
+    "rotation": {
+      "x": 85,
+      "y": 1,
+      "z": 0
+    },
+    "scale": 0.88
+  },
+  "groundTransform": {
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 2.5
+  },
+  "collisionselectionbox": {
+    "x1": 0.25,
+    "y1": 0,
+    "z1": 0.0625,
+    "x2": 0.75,
+    "y2": 0.25,
+    "z2": 0.9375,
+    "rotateYByType": {
+      "*-ns": 90,
+      "*-we": 0
+    }
+  },
+  "sounds": {
+    "place": "game:block/planks",
+    "hit": "game:block/planks",
+    "break": "game:block/planks",
+    "walk": "game:walk/wood"
+  },
+  "materialDensity": 600
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/output",
+    "value": {
+      "type": "item",
+      "code": "brickmold:refractoryclay-tier1",
+      "quantity": 3
+    },
+    "file": "game:recipes/grid/rawrefractorybrick.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/output",
+    "value": {
+      "type": "item",
+      "code": "brickmold:refractoryclay-tier2",
+      "quantity": 3
+    },
+    "file": "game:recipes/grid/rawrefractorybrick.json"
+  },
+  {
+    "op": "replace",
+    "path": "/2/output",
+    "value": {
+      "type": "item",
+      "code": "brickmold:refractoryclay-tier3",
+      "quantity": 3
+    },
+    "file": "game:recipes/grid/rawrefractorybrick.json"
+  }
+]

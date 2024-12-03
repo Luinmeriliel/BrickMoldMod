@@ -1,0 +1,21 @@
+{
+	"ingredientPattern": "_P_,PKP,_P_",
+	"width": 3,
+	"height": 3,
+  "ingredients": {
+    "P": {
+      "type": "item",
+      "code": "game:plank-*"
+    },
+    "K": {
+      "type": "item",
+      "code": "game:knife-generic-*",
+      "isTool": true
+    }
+  },
+
+	"output": {
+		"type": "block",
+		"code": "brickmold:brickmold-ns"
+	}
+}
