@@ -156,7 +156,7 @@
         "code": "brickred",
         "content": {
           "type": "item",
-          "code": "bricklayers:rawclaybrick-red"
+          "code": "game:rawbrick-red"
         },
         "quantityPerFillLevel": 1,
         "maxFillLevels": 1,
@@ -214,7 +214,7 @@
       "base": "brickmold:block/clay/brownclay"
     },
     "contents-red": {
-      "base": "brickmold:block/clay/redclay"
+      "base": "game:block/clay/redclay"
     }
   },
   "blockmaterial": "Wood",

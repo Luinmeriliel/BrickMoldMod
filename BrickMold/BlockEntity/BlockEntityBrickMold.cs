@@ -248,7 +248,7 @@ namespace Vintagestory.GameContent
                 if (IsFull)
                 {
                     string stackCode = inventory[0].Itemstack.Item.Code.ToShortString();        // eg "clay-blue"
-                    string[] isVanillaDomain = { "blue", "fire", "tier1", "tier2", "tier3" };   // These use game:
+                    string[] isVanillaDomain = { "blue", "fire", "red", "tier1", "tier2", "tier3" };   // These use game:
                     string domain = isVanillaDomain.Any(substring => stackCode.Contains(substring)) ? "game:" : "bricklayers:"; // if not game: then bricklayers: (brown and red)
                     string brickType;
                     if (domain == "game:")
