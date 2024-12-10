@@ -1,9 +1,0 @@
-1.0.2
-- Added missing shingle recipes
-- Changed brick mold hitbox
-
-1.0.1
-- Fixed brick mold placement rotation
-
-1.0
-- Initial release
