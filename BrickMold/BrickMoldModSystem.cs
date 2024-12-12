@@ -1,4 +1,5 @@
-﻿using Vintagestory.API.Client;
+﻿
+using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.Config;
 using Vintagestory.API.Server;
@@ -16,7 +17,9 @@ namespace BrickMold
             base.Start(api);
             api.RegisterBlockClass("brickmold.brickmold", typeof(BlockBrickMold));
             api.RegisterBlockEntityClass("brickmold.BlockEntityBrickMold", typeof(BlockEntityBrickMold));
-            
+            api.RegisterBlockClass("brickmold.shingleform", typeof(BlockShingleForm));
+            api.RegisterBlockEntityClass("brickmold.BlockEntityShingleForm", typeof(BlockEntityShingleForm));
+
         }
 
         public override void StartServerSide(ICoreServerAPI api)

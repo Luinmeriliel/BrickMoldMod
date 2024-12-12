@@ -1,24 +1,129 @@
 {
 	"code": "shingleform",
-	"class": "Block",
-	"behaviors": [{"name": "UnstableFalling"}, {"name": "RightClickPickup"}],
-	"creativeinventory": { "general": ["*"], "decorative": ["*"] },
-	"shape": { "base": "brickmold:block/shingleform"	},
+	"class": "brickmold.shingleform",
+	"behaviors": [
+		{ "name": "NWOrientable" },
+		{ "name": "UnstableFalling" },
+		{ "name": "RightClickPickup" }
+	],
+	"entityClass": "brickmold.BlockEntityShingleForm",
 	"lightAbsorption": 0,
 	"resistance": 0.15,
 	"sidesolid": { "all": false },
 	"sideopaque": { "all": false },
 	"emitSideAO": { "all": false },
-	"selectionbox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.3, "z2": 1 },
-	"collisionbox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.3, "z2": 1 },
+	"collisionbox": {
+		"x1": 0,
+		"y1": 0,
+		"z1": 0,
+		"x2": 1,
+		"y2": 0.3,
+		"z2": 1
+	},
+	"SelectionBoxes": [
+		{
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 0.33,
+			"y2": 0.19,
+			"z2": 0.5,
+			"rotateYByType": {
+				"*-ns": 0,
+				"*-we": 90
+			}
+		},
+		{
+			"x1": 0.33,
+			"y1": 0,
+			"z1": 0,
+			"x2": 0.66,
+			"y2": 0.19,
+			"z2": 0.5,
+			"rotateYByType": {
+				"*-ns": 0,
+				"*-we": 90
+			}
+		},
+		{
+			"x1": 0.66,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 0.19,
+			"z2": 0.5,
+			"rotateYByType": {
+				"*-ns": 0,
+				"*-we": 90
+			}
+		},
+		{
+			"x1": 0,
+			"y1": 0,
+			"z1": 0.5,
+			"x2": 0.33,
+			"y2": 0.19,
+			"z2": 1,
+			"rotateYByType": {
+				"*-ns": 0,
+				"*-we": 90
+			}
+		},
+		{
+			"x1": 0.33,
+			"y1": 0,
+			"z1": 0.5,
+			"x2": 0.66,
+			"y2": 0.19,
+			"z2": 1,
+			"rotateYByType": {
+				"*-ns": 0,
+				"*-we": 90
+			}
+		},
+		{
+			"x1": 0.66,
+			"y1": 0,
+			"z1": 0.5,
+			"x2": 1,
+			"y2": 0.19,
+			"z2": 1,
+			"rotateYByType": {
+				"*-ns": 0,
+				"*-we": 90
+			}
+		}
+	],
+	"variantgroups": [
+		{
+			"code": "side",
+			"states": [ "ns", "we" ]
+		}
+	],
+	"creativeinventory": {
+		"general": [ "*-ns" ],
+		"decorative": [ "*-ns" ]
+	},
+
+	"shape": { "base": "brickmold:block/shingleform" },
+	"shapebytype": {
+		"*-ns": {
+			"base": "brickmold:block/shingleform",
+			"rotateY": 0
+		},
+		"*-we": {
+			"base": "brickmold:block/shingleform",
+			"rotateY": 90
+		}
+	},
 	"blockmaterial": "Wood",
 	"materialDensity": 450,
-	"durability": 384,
 	"sounds": {
 		"place": "game:block/planks",
 		"hit": "game:block/planks",
 		"break": "game:block/planks",
 		"walk": "game:walk/wood"
 	},
-	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock"
+	"heldTpIdleAnimation": "holdbothhandslarge",
+	"heldTpUseAnimation": "twohandplaceblock"
 }

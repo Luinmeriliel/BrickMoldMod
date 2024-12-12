@@ -82,13 +82,7 @@ namespace Vintagestory.GameContent
                     }
 
                 }
-                //// Overwrite vanilla "blockhelp-collect" to add Ctrl key information
-                //new WorldInteraction()
-                //{
-                //    ActionLangCode = "blockhelp-collect",
-                //    MouseButton = EnumMouseButton.Left,
-                //    HotKeyCode = "ctrl", // Inform about the Ctrl key
-                //}
+                
 
             };
 
