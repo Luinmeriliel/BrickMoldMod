@@ -9,8 +9,9 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"birch": "game:block/wood/debarked/birch",
-		"maple": "game:block/wood/debarked/maple",
+		"birch": "block/wood/debarked/birch",
+		"maple": "block/wood/debarked/maple",
+		"wood": "block/wood/planks/aged1"
 	},
 	"elements": [
 		{
